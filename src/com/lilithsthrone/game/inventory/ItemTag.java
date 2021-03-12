@@ -96,6 +96,11 @@ public enum ItemTag {
 			Util.newArrayListOfValues(
 					"[style.colourGood(Provides equipper with key)]"),
 			false),
+
+	UNENCHANTABLE(  // Prevents the player from enchanting this in the inventory menu.
+			Util.newArrayListOfValues(
+					"[style.colourBad(Unenchantable)]"),
+			false),
 	
 	SPREADS_FEET( // Prevents double foot actions, like wrap-around footjobs
 			Util.newArrayListOfValues(
